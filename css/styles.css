@@ -1,0 +1,60 @@
+.error
+{
+color:red;
+}
+.main-container
+{
+margin:5px;
+width:auto;
+height:auto;
+border:0.5px solid black;
+font-family:helvetica;
+}
+.header
+{
+margin:5px;
+width:auto;
+height:40px;
+border:0.5px solid black;
+}
+.brand-name
+{
+font-size:15pt;
+margin:7px;
+margin-right:850px;
+float:left;
+}
+.content
+{
+margin:5px;
+width:auto;
+height:76vh;
+border:0.5px solid white;
+}
+.left-panel
+{
+margin:5px;
+height:70vh;
+width:auto;
+float:left;
+border:0.5px solid black;
+}
+.right-panel
+{
+width:auto;
+height:70vh;
+margin-left:130px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+border:0.5px solid black;
+overflow:scroll;
+}
+.footer
+{
+margin:5px;
+height:20px;
+width:auto;
+text-align:center;
+border:0.5px solid white;
+}

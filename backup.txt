@@ -1,0 +1,10 @@
+<tm:EntityList populatorClass='com.thinking.machines.hr.bl.EmployeeBL' populatorMethod='getAll' beanName='eBean'>
+<tr style='cursor:pointer' onclick='selectEmployee(this,"${eBean.id}")'>
+<td style='width:50px;text-align:right'>${serialNumber}.</td>
+<td style='width:100px;text-align:left'>${eBean.id}</td>
+<td style='width:200px;text-align:left'>${eBean.name}</td>
+<td style='width:200px;text-align:left'>${eBean.designation}</td>
+<td style='width:100px;text-align:center'><a href='/styleone/editEmployee?employeeId=${eBean.id}'>Edit</a></td>
+<td style='width:100px;text-align:center'><a href='/styleone/confirmEmployeeDeletion?employeeId=${eBean.id}'>Delete</a></td>
+</tr>
+</tm:EntityList>
